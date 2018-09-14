@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "engines": {
     "node": "10.10.0",
-    "npm": "6.2.0"
+    "npm": "6.4.1"
   },
   "scripts": {
     "audit": "lerna exec npm audit",
