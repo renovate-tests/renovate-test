@@ -1,6 +1,6 @@
 {
   "baseBranches": [
-    "next"
+    "master"
   ],
   "commitMessagePrefix": "Renovate:",
   "enabled": true,
@@ -13,9 +13,6 @@
   ],
   "reviewers": [
     "stieg"
-  ],
-  "schedule": [
-    "at 11:30am on Thurs"
   ],
   "separateMultipleMajor": true,
   "timezone": "America/Chicago"
