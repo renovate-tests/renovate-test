@@ -11,6 +11,7 @@
   "labels": [
     "bot:renovate"
   ],
+  "prHourlyLimit": 400,
   "reviewers": [
     "stieg"
   ],
