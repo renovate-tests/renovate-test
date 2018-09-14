@@ -1,0 +1,22 @@
+{
+  "baseBranches": [
+    "next"
+  ],
+  "commitMessagePrefix": "Renovate:",
+  "enabled": true,
+  "extends": [
+    "config:base",
+    "default:pinDigestsDisabled"
+  ],
+  "labels": [
+    "bot:renovate"
+  ],
+  "reviewers": [
+    "stieg"
+  ],
+  "schedule": [
+    "at 11:30am on Thurs"
+  ],
+  "separateMultipleMajor": true,
+  "timezone": "America/Chicago"
+}

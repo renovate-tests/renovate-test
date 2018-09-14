@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "lerna": "3.3.0"
+  },
+  "author": "Engineering <engineering@airfordable.com>",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.2.0"
+  },
+  "scripts": {
+    "audit": "lerna exec npm audit",
+    "build": "lerna exec npm run build",
+    "lint": "lerna exec npm run lint",
+    "postinstall": "lerna bootstrap",
+    "test": "lerna exec npm test",
+    "test:integration": "lerna exec npm run test:integration",
+    "test:unit": "lerna exec npm run test:unit"
+  },
+  "private": true
+}
